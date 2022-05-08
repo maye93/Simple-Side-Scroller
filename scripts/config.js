@@ -1,7 +1,7 @@
 const config = {
     type: Phaser.AUTO,
     mode: Phaser.Scale.FIT,
-    width: 320,
+    width: 1280,
     height: 320,
     backgroundColor: "#fffeaf",
     physics: {
@@ -12,6 +12,7 @@ const config = {
     },
     scene: [
         mainScene,
+        // gameOver
     ],
     pixelArt: true,
     roundPixels: true
